@@ -1,0 +1,19 @@
+name: tree_eval
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip=20.3
+  - pytorch=1.11.0
+  - numpy=1.19.2
+  - ipykernel
+  - pip:
+    - jupyterlab
+    - ipywidgets
+    - pandas==1.5.2
+    - scipy==1.5.4
+    - scikit-learn==0.24.2
+    - matplotlib==3.5.2
+    - typer
+prefix: ~/anaconda/envs/tree_eval
